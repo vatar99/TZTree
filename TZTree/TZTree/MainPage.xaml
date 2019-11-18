@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TZTree.MainPage"
+             Title="Главная страница">
+
+    <ContentPage.Content>
+        <StackLayout Padding="12,12,12,12">
+            <Button x:Name="Player" Text="Плеер" Clicked="Player_Clicked"></Button>
+            <Button x:Name="Editors" Text="Задание Editor" Clicked="Editor_Clicked"></Button>
+            <Button x:Name="Entrys" Text="Задание Entry" Clicked="Entrys_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
